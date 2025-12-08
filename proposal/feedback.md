@@ -1,0 +1,3 @@
+## Feedback
+
+This is a clean and well targeted project idea. For the experiments, the two things to pay attention to are how you aggregate nPrint or pcapML features per flow, since slight differences in how packets are grouped or summarized will noticeably change balanced accuracy, and how you set up the family-held-out evaluation, since that split strongly affects whether models generalize beyond signature-style cues. Once those details are consistent with the netML setup, the baselines should be reproducible and the cost-accuracy tradeoff study will be straightforward to run.
