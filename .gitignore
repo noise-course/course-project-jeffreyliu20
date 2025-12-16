@@ -1,0 +1,61 @@
+############################################
+# Python / virtual environments
+############################################
+.venv/
+venv/
+env/
+final/.venv/
+final/venv/
+final/env/
+
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+############################################
+# Jupyter / notebooks outputs (optional)
+############################################
+# If you want to keep notebook output, comment this out.
+# Otherwise it prevents gigantic diffs.
+*.ipynb_checkpoints/
+
+############################################
+# Large data + generated ML artifacts (DO NOT COMMIT)
+############################################
+# Raw captures
+**/*.pcap
+**/*.pcapng
+
+# Extracted/split PCAP folders you generated
+final/netml_malware_pcaps/
+final/traffic.pcapng/
+
+# Feature files
+**/*.parquet
+
+# Model artifacts / cached data
+**/*.pkl
+**/*.joblib
+**/*.pt
+**/*.pth
+**/*.onnx
+**/*.npz
+**/*.npy
+
+############################################
+# Logs / temp
+############################################
+*.log
+*.tmp
+*.temp
+
+############################################
+# OS/editor
+############################################
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+final/.vscode/
